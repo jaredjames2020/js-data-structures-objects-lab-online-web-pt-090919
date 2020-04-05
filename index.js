@@ -18,8 +18,8 @@ function deleteFromDriverByKey(driver, key){
   // deleteDriverValue = (delete deleteDriverValue.key);
   
   // return deleteDriverValue;
-  const abd = {...driver};
-  const deleteDriverValue = Object.assign({}, abd};
+  const deleteDriverValue = Object.assign({}, deleteDriverValue};
+  console.log(deleteDriverValue)
   delete deleteDriverValue[key];
   
   return deleteDriverValue;
